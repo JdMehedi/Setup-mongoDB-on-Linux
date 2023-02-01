@@ -5,7 +5,7 @@
 	sudo apt-get install gnupg
 	wget -qO - https://www.mongodb.org/static/pgp/server-6.0.asc | sudo apt-key add -
 	
-# If you’d like to double check that the key was added correctly, you can do so with the following command:
+# If you’d like to double check that the key was added correctly, you can run the following command:
 	apt-key list
 # Create a list file for MongoDB:
 	echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
