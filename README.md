@@ -29,3 +29,7 @@
 	
 # To get access or to see db related task isshu the following command:
 	mongosh
+	
+# To install mongodb compass run the following command it will be downloaded directly. so now go to your snap store and click to install:
+	wget https://downloads.mongodb.com/compass/mongodb-compass_1.30.1_amd64.deb
+
